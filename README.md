@@ -18,7 +18,7 @@ In order to be able to run PHP, you will download the repository to your local m
 	$username = "root";
 //Make sure you have the correct password
 	$password = "root";
-//Make sure your database name is equal to ```mana_datubaze```. See point no. 5
+//Make sure your database name is equal to mana_datubaze. See point no. 5
 	$conn = mysqli_connect($hostname, $username, $password, "mana_datubaze");
 
 	if (!$conn) {
@@ -29,7 +29,7 @@ In order to be able to run PHP, you will download the repository to your local m
 		$user_email = $_POST['user-email'];
 		if (!empty($user_email)) {
 			$sql = "INSERT INTO `epastu_saraksts` (`user-email`) VALUES ('$user_email')";
-//Make sure the table name in your database is equal to ```epastu_saraksts```. See point no. 5
+//Make sure the table name in your database is equal to epastu_saraksts. See point no. 5
 			mysqli_query($conn, $sql);
 			echo "<center>Epasts veiksmīgi saglabāts!</center>";
 		}
