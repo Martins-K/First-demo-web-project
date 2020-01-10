@@ -57,6 +57,6 @@ In order to be able to run PHP, you will download the repository to your local m
 
 4. Install and run a software, for example, MAMP or XAMPP, that enables to run a local server that will locally host the website.
 
-5. Create a new MySQL database and a new table in this database by following the comments in the above PHP script.
+5. By using phpMyAdmin create a new MySQL database and a new table in this database by following the comments in the above PHP script.
 
 6. Start the local servers and the website is up and running.
