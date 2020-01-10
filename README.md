@@ -1,6 +1,6 @@
 # About
 
-This is a demo static website in HTML, CSS and JavaScript 
+This is a demo static website in HTML, CSS and JavaScript and can be accessed here: https://martins-k.github.io/demo-web/index.html.
 ## MySQL database setup
 
 As Github Pages allow deploying static websites only, the PHP script in this website is removed.
