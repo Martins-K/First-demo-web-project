@@ -8,7 +8,7 @@ In order to be able to run PHP, you will download the repository to your local m
 
 1. Download this repository to your local machine.
 
-2. Open html/contact.html file and add the following PHP script after the closing ```html </form> ``` tag (make sure to take into account the comments):
+2. Open html/contact.html file and add the following PHP script after the closing ```</form> ``` tag (make sure to take into account the comments):
 
 ```php
 <?php
@@ -53,10 +53,10 @@ In order to be able to run PHP, you will download the repository to your local m
 
 ?>
 ```
-3. Save html/contact.html as html/contact.php
+3. Save ```html/contact.html``` as ```html/contact.php```.
 
-4. Install and run a software, for example, MAMP or XAMPP, that enables to run a local server that will locally host the website.
+4. Install and run a software, for example, MAMP or XAMPP, that enables to run a local server for hosting the website locally.
 
-5. By using phpMyAdmin create a new MySQL database and a new table in this database by following the comments in the above PHP script.
+5. Use phpMyAdmin to create a new MySQL database and a new table in this database. Follow the comments in the above PHP script.
 
 6. Start the local servers and the website is up and running.
