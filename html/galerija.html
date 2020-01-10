@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Latvija</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="../css/styles.css">
+		<script src="../javascript/imageSlider.js" ></script>
+		<script src="../javascript/showGalleryInfo.js"></script>
+	</head>
+	<body>
+		<nav class="side-nav">
+			<img class="latvijas-karogs" alt="Latvijas karogs" src="../media/latvija.png">
+			<div class="menu-items">
+  				<a href="../index.html">Home</a>
+  				<a href="fakti.html">Fakti</a>
+  				<a class="selected" href="#">Galerija</a>
+  				<a class = "video" href="video.html">Video</a>
+  				<a href="zinas.html">Ziņas</a>
+  				<a href="kontakti.html">Kontakti</a>
+  			</div>
+		</nav>
+		<div class="main-text">
+			<div id="galerija">
+
+				<div>
+					<button class=button-previous onclick="prevImage(); prevText()"> <strong><<</strong></button>
+	            	<img id="slider" src="../media/brivibas-piemineklis.jpg"/>
+	            	<button class=button-next onclick="nextImage(); nextText()"> <strong>>></strong></button>
+				</div>
+
+				<div>
+					<p id="right-text">Izvēlies bildi un lasi aprakstu šeit</p>
+				</div>
+			</div>
+		</div>
+
+		<footer class="footer">
+			<p>Lapu izveidoja: Mārtiņš Krūklis &copy;</p>
+		</footer>
+	</body>
+	</html>

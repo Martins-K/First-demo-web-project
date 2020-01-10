@@ -1,0 +1,204 @@
+body {
+  font-family: "Lato", sans-serif;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.menu-items {
+  position: fixed;
+  top: 75px;
+  width: 150px;
+}
+
+#slider {
+  width: 400px;
+  height: 500px;
+}
+
+.left-side {
+  width:150px;
+}
+
+#par-kurzemi {
+  display: none
+}
+
+#par-zemgali {
+  display: none
+}
+
+#par-latgali {
+  display: none
+}
+
+#par-vidzemi {
+  display: none
+}
+
+.latvijas-karogs {
+  top:0px;
+  position: absolute;
+  height: 75px;
+  width: 150px;
+  transition: transform 2s;
+}
+
+.latvijas-karogs:hover {
+  transform:rotate(360deg);
+}
+
+.side-nav {
+  height: 100%;
+  width: 150px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #104;
+  overflow-x: hidden;
+}
+
+.side-nav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+}
+
+.side-nav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #104;
+  color: white;
+  text-align: center;
+}
+
+.main-text > table {
+  border:1px solid black;
+}
+
+
+.main-text {
+  font-family: TabacSans;
+  left: 150px;
+  margin-bottom: 50px;
+  position: absolute;
+  padding: 10px;
+  background-color: azure;
+}
+
+.video {
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.selected {
+  color: white !important;
+  background-color: grey !important;
+}
+
+.left-container {
+  width: 36%;
+  float:left;
+}
+
+.right-container {
+  width: 45%;
+  float:left;
+}
+
+.latvijas-novadi {
+  text-align: center;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.button-previous {
+  text-align: left;
+  position: relative;
+  border-radius: 50%;
+  border: 2px solid #4CAF50;
+  background-color: yellowgreen; 
+}
+
+.button-next {
+  text-align: right;
+  position: relative;
+  border-radius: 50%;
+  border: 2px solid #4CAF50;
+  background-color: yellowgreen; 
+}
+
+@media screen and (max-height: 450px) {
+  .side-nav {padding-top: 15px;}
+  .side-nav a {font-size: 18px;}
+}
+
+#myInput {
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 100%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+}
+
+#myTable {
+  border-collapse: collapse; /* Collapse borders */
+  width: 100%; /* Full-width */
+  border: 1px solid #ddd; /* Add a grey border */
+  font-size: 18px; /* Increase font-size */
+}
+
+#myTable th, #myTable td {
+  text-align: left; /* Left-align text */
+  padding: 12px; /* Add padding */
+}
+
+#myTable tr {
+  /* Add a bottom border to all table rows */
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  /* Add a grey background color to the table header and on hover */
+  background-color: #f1f1f1;
+}

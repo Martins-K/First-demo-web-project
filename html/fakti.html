@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Latvija</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="../css/styles.css">
+		<script src="../javascript/showfact.js" ></script>
+		<script src="../javascript/tableFunction.js"></script>
+	</head>
+	<body>
+		<nav class="side-nav">
+			<img class="latvijas-karogs" alt="Latvijas karogs" src="../media/latvija.png">
+			<div class="menu-items">
+  				<a href="../index.html">Home</a>
+  				<a class="selected" href="#">Fakti</a>
+  				<a href="galerija.html">Galerija</a>
+  				<a href="zinas.html">Ziņas</a>
+  				<a href="kontakti.html">Kontakti</a>
+  			</div>
+		</nav>
+		<div class="main-text">
+			<h1>Spied šeit, lai parādītu nejaušu faktu par Latviju!</h1>
+			<button onclick="showFact()" >Rādīt</button>
+			<p id="fakts"> </p>
+		
+			<p><strong>Latvijas lielākās pilsētas ir apkopotas zemāk</strong></p>
+
+			<input type="text" id="myInput" onkeyup="tableFunction()" placeholder="Ieraksti pilsētas nosaukumu">
+
+			<table id="myTable">
+  				<tr class="header">
+				    <th>Pilsēta</th>
+				    <th>Novads</th>
+				    <th>Iedzīvotāju skaits</th>
+				    <th></th>
+  				</tr>
+				<tr>
+				    <td>Rīga</td>
+				    <td>Vidzeme</td>
+				    <td>701 064</td>
+				    <td></td>
+				</tr>
+				<tr>
+					<td>Daugavpils</td>
+					<td>Latgale</td>
+					<td>92 776</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Liepāja</td>
+					<td>Kurzeme</td>
+					<td>76 604</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Jelgava</td>
+					<td>Zemgale</td>
+					<td>61 162</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Jūrmala</td>
+					<td>Vidzeme</td>
+					<td>57 044</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Ventspils</td>
+					<td>Kurzeme</td>
+					<td>38 562</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Rēzekne</td>
+					<td>Latgale</td>
+					<td>30 705</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Valmiera</td>
+					<td>Vidzeme</td>
+					<td>24 856</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Ogre</td>
+					<td>Zemgale</td>
+					<td>24 768</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Jēkabpils</td>
+					<td>Latgale</td>
+					<td>23 600</td>
+					<td></td>
+				</tr>
+			</table>
+		</div>
+
+		<footer class="footer"><p>Lapu izveidoja: Mārtiņš Krūklis &copy;</p></footer>
+	</body>
+</html>

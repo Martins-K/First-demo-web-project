@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Latvija</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<script src="javascript/showRegionInfo.js" ></script>
+		<script src="javascript/flagAnimation.js"></script>
+	</head>
+	<body>
+		<nav class="side-nav">
+			<img id="latvijas-karogs" class="latvijas-karogs" alt="Latvijas karogs" src="media/latvija.png">
+			<div class="menu-items">
+				<a class="selected" href="#">Home</a>
+  				<a href="html/fakti.html">Fakti</a>
+  				<a href="html/galerija.html">Galerija</a>
+  				<a href="html/zinas.html">Ziņas</a>
+  				<a href="html/kontakti.html">Kontakti</a>
+			</div>
+		</nav>
+		<div class="main-text">
+			<h1>Sveicināti! Šī ir lapa par Latviju.</h1> 
+			<p><strong>Latvijas Republika</strong> ir valsts Ziemeļeiropā, Baltijas jūras austrumu krastā. Tā ir viena no trijām Baltijas valstīm un ir Eiropas Savienības dalībvalsts. Valsts galvaspilsēta ir Rīga. Ziemeļos Latvija robežojas ar Igauniju, austrumos — ar Krieviju, dienvidaustrumos — ar Baltkrieviju, bet dienvidos — ar Lietuvu. Rietumos to apskalo Baltijas jūra, savukārt ziemeļos — Rīgas jūras līcis. Latvijas platība ir 64 589 km2, iedzīvotāju skaits 2018. gada sākumā bija 1,93 miljoni. Apmēram 62% no iedzīvotājiem ir latvieši, bet no pārējiem iedzīvotājiem lielākā daļa ir krievi. Latviešu valoda ir oficiālā valsts valoda. Dominējošā reliģija ir kristietība (galvenokārt luterisms, katoļticība un pareizticība). Saskaņā ar Latvijas Satversmi valsts teritoriju sastāda Vidzeme, Latgale, Kurzeme un Zemgale. Pie kultūrvēsturiskajiem novadiem pieskaita arī Sēliju. Lielākās pilsētas pēc iedzīvotāju skaita ir Rīga, Daugavpils, Liepāja, Jelgava, Jūrmala, Ventspils un Rēzekne.</p>
+			<p>Noklikšķini uz novada, lai parādītu tā aprakstu!</p>
+				
+			<div class="latvijas-novadi" >
+			
+				<img src="media/latvijas-novadi.png" alt="Latvijas novadi" usemap="#regionmap">
+					<map name="regionmap">
+  						<area shape="circle" coords="104,154,46" alt="Kurzeme" onclick="showKurzemeInfo()" href="#par-Kurzemi">
+ 						<area shape="circle" coords="401,122,65" alt="Vidzeme" onclick="showVidzemeInfo()" href="#par-Vidzemi">
+  						<area shape="circle" coords="277,235,38" alt="Zemgale" onclick="showZemgaleInfo()" href="#par-Kurzemi">
+  						<area shape="circle" coords="556,266,58" alt="Latgale" onclick="showLatgaleInfo()" href="#par-Latgali">
+					</map>
+			</div>
+
+			<div id="par-Kurzemi" style="display: none;">
+				<p>Kurzeme (lībiešu: Kurāmō[1]) jeb Kursa ir kultūrvēsturisks novads Latvijas rietumu daļā. Mūsdienu Kurzemes teritoriālā identitāte izsekojama kopš Kurzemes bīskapijas dibināšanas 1230. gadā, lai gan līdz pat 1422. gadam pie Kurzemes pieskaitīja arī Senās Kursas dienvidu daļa mūsdienu Lietuvas teritorijā (Ceklis, Megava un Pilsāts).</p>
+			</div>
+
+			<div id="par-Vidzemi" style="display: none;">
+				<p>Vidzeme (lībiešu: Vidūmō[1]) ir viens no Latvijas kultūrvēsturiskajiem novadiem. No Latgales to atdala Pededzes un Aiviekstes upes, no Sēlijas un Zemgales — Daugava, bet ziemeļos tā robežojas ar Igaunijas Republiku. Mūsdienu Vidzemes teritoriālā identitāte izsekojama kopš Rīgas bīskapijas dibināšanas 1201. gadā. 1917. gadā igauņu apdzīvotos Vidzemes guberņas apriņķus pievienoja Igaunijas guberņai.</p>
+				</div>
+
+			<div id="par-Zemgali" style="display: none;">
+				<p>Zemgale ir kultūrvēsturisks novads Latvijā, kas līdz 1949. gada administratīvi teritoriālajai reformai ietvēra ne tikai Jelgavas, Bauskas un Tukuma apriņķus, bet arī Sēlijai piederīgos Jēkabpils un Ilūkstes apriņķus.<br>Līdz 14. gadsimta sākumam Zemgales valsts dienvidu robeža gāja caur tagadējās Lietuvas Šauļu un Paņevežas apriņķiem. Mūsdienu Zemgales teritoriālā identitāte izsekojama kopš Zemgales bīskapijas dibināšanas 1226. gadā. Zemgale vēsturiski bija cieši saistīta ar Kurzemes un Sēlijas kultūrvēsturiskajiem novadiem, tādēļ to robežas ir izplūdušas, tāpat kā robeža ar Vidzemes kultūrvēsturisko novadu Daugavas kreisajā pusē ir vairāk politiski noteikta 13. gadsimtā, dalot Rīgas un Zemgales bīskapijas, nekā kulturāla. Lielākā daļa Zemgales teritorijas ir līdzenums, atšķirībā no pārējiem Latvijas kultūrvēsturiskajiem novadiem, kuros ir arī augstienes.</p>
+			</div>
+
+			<div id="par-Latgali" style="display: none;">
+				<p>Latgale ir kultūrvēsturisks novads Latvijā. Mūsdienu Latgales teritoriālā identitāte izsekojama kopš Jersikas ķēniņa valsts laikiem 12. un 13. gadsimta mijā, kas latīņu tekstos saukta par „Letiju” (Lettia), bet senkrievu rakstos par „Lotigolu” (Лотыголa). Pēc 1561. gada Žečpospolitas, vēlāk Krievijas impērijas varas laikā (1772.—1918.) apgabals tika dēvēts par „Inflantiju” (poļu: Inflanty, krievu: Инфлянтия). Nosaukumu „Latgale” 1900. gadā no seno „lotigolu” apzīmējuma darināja un ieviesa latgaliešu rakstnieks un politiskais darbinieks Francis Kemps (1876.—1953.).</p>
+			</div>
+		</div>
+
+		<footer class="footer">
+			<p>Lapu izveidoja: Mārtiņš Krūklis &copy;</p>
+		</footer>
+	</body>
+</html>

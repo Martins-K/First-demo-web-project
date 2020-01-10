@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Latvija</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="../css/styles.css">
+	</head>
+	<body>
+		<nav class="side-nav">
+			<img class="latvijas-karogs" alt="Latvijas karogs" src="/Users/martinskruklis/Desktop/Majaslapas_projekts/media/latvija.png">
+			<div class="menu-items">
+  				<a href="../index.html">Home</a>
+  				<a href="fakti.html">Fakti</a>
+  				<a href="galerija.html">Galerija</a>
+  				<a class="selected" href="#">Ziņas</a>
+  				<a href="kontakti.html">Kontakti</a>
+  			</div>
+		</nav>
+
+		<div class="main-text">
+			
+			<p>Izvēlies ziņu avotu, lai uzzinātu aktualitātes Latvijā!</p>
+
+			<select class="form" id="myForm" onchange="ShowTwitterFeed()">
+  				<option value="lsm" checked> LSM<br>
+ 				<option value="delfi"> Delfi<br>
+  				<option value="apollo"> Apollo
+			</select>
+
+			
+  			<br><br>
+  				
+			<div id=twitter_feed class="main-text">
+			</div>
+
+    	</div>
+
+		<footer class="footer"><p>Lapu izveidoja: Mārtiņš Krūklis &copy;</p></footer>
+
+	</body>
+	</html>
