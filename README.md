@@ -8,7 +8,7 @@ In order to be able to run PHP, you will download the repository to your local m
 
 1. Download this repository to your local machine.
 
-2. Open ```html/contact.html``` file and add the following PHP script after the closing ```</form> ``` tag (make sure to take into account the comments):
+2. Open ```html/contact.html``` file in a text editor and add the following PHP script after the closing ```</form> ``` tag (make sure to take into account the comments):
 
 ```php
 <?php
